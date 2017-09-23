@@ -1,0 +1,80 @@
+{
+	"name": "kedwards/wp-shell",
+	"description": "Wordpress Project Template",
+	"type": "project",
+	"keywords": ["Wordpress", "Consulting", "Project", "Template"],  
+	"homepage": "https://github.com/kedwards/wp-shell",
+	"license": "Proprietary",
+	"authors": [
+		{
+			"name": "Kevin Edwards",
+			"email": "kedwards@kevinedwards.ca",
+			"homepage": "https://kevinedwards.ca",
+			"role": "Developer"
+		}
+	],
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://wpackagist.org"
+		}
+	],
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"require": {
+		"php": ">=5.3.0|7.*",
+		"wikimedia/composer-merge-plugin": "^1.4",
+		"composer/installers": "^1.4",
+		"johnpbloch/wordpress": "^4.8",
+		"johnpbloch/wordpress-core-installer": "^1.0",
+		"roots/wp-password-bcrypt": "^1.0",
+		"vlucas/phpdotenv": "^2.4",
+		"oscarotero/env": "^1.1",
+		"rarst/update-blocker": "^1.1"
+	},
+	"require-dev": {
+		"wpackagist-plugin/wp-sweep": "^1.0",
+		"wpackagist-plugin/wp-local-toolbox": "^1.2",
+		"wpackagist-plugin/debug-bar": "^0.9.0",
+		"squizlabs/php_codesniffer": "^3.0",
+		"phpmd/phpmd": "^2.6",
+		"sebastian/phpcpd": "^3.0",
+		"pdepend/pdepend": "^2.5",
+		"phploc/phploc": "^4.0",
+		"theseer/phpdox": "^0.10.1",
+		"phpunit/phpunit": "^6.3",
+		"kint-php/kint": "^2.2"
+	},
+	"extra": {
+		"merge-plugin": {
+            "include": [
+                "src/public/app/themes/*/composer.json"
+            ],
+            "recurse": true,
+            "replace": false,
+            "ignore-duplicates": true,
+            "merge-dev": true,
+            "merge-extra": true,
+            "merge-extra-deep": true,
+            "merge-scripts": true
+        },
+		"installer-paths": {
+			"src/public/app/mu-plugins/{$name}/": [
+				"rarst/update-blocker",
+				"type:wordpress-muplugin"
+			],
+			"src/public/app/plugins/{$name}/": [
+				"type:wordpress-plugin"
+			],
+			"src/public/app/themes/{$name}/": [
+				"type:wordpress-theme"
+			]
+		},
+		"wordpress-install-dir": "src/public/wp"
+	},
+	"scripts": {
+		"test": [
+			"vendor/bin/phpcs --ignore=src/public/wp/,vendor/ -n -s ."
+		]
+	}
+}
