@@ -30,7 +30,8 @@
 		"roots/wp-password-bcrypt": "^1.0",
 		"vlucas/phpdotenv": "^2.4",
 		"oscarotero/env": "^1.1",
-		"rarst/update-blocker": "^1.1"
+		"rarst/update-blocker": "^1.1",
+		"wpackagist-plugin/wp-maintenance-mode": "2.0.9"
 	},
 	"require-dev": {
 		"wpackagist-plugin/wp-sweep": "^1.0",
