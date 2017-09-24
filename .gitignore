@@ -2,6 +2,7 @@
 # https://help.github.com/articles/ignoring-files
 #
 src/.env
+src/app/updraft
 src/public/app/mu-plugins/*
 !src/public/app/mu-plugins/*.php
 src/public/app/plugins/*
