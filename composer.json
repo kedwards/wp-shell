@@ -15,12 +15,12 @@
 	],
 	"repositories": [
 		{
-			"type": "composer",
-			"url": "https://wpackagist.org"
-		},
-		{
 			"type": "vcs",
 			"url": "git@github.com:kedwards/acre.git"
+		},
+		{
+			"type": "composer",
+			"url": "https://wpackagist.org"
 		}
 	],
 	"minimum-stability": "dev",
@@ -55,7 +55,7 @@
 	"extra": {
 		"merge-plugin": {
             "include": [
-                "src/public/app/themes/*/composer.json"
+                "src/public/app/themes/acre/composer.json"
             ],
             "recurse": true,
             "replace": false,
