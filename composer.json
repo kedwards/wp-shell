@@ -17,6 +17,10 @@
 		{
 			"type": "composer",
 			"url": "https://wpackagist.org"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:kedwards/acre.git"
 		}
 	],
 	"minimum-stability": "dev",
@@ -32,7 +36,8 @@
 		"oscarotero/env": "^1.1",
 		"rarst/update-blocker": "^1.1",
 		"wpackagist-plugin/wp-maintenance-mode": "2.0.9",
-		"wpackagist-plugin/updraftplus": "1.13.8"
+		"wpackagist-plugin/updraftplus": "1.13.8",
+		"kedwards/acre": "dev-master"
 	},
 	"require-dev": {
 		"wpackagist-plugin/wp-sweep": "^1.0",
