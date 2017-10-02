@@ -48,7 +48,9 @@
 	"extra": {
 		"merge-plugin": {
             "include": [
-                "src/public/app/themes/*/composer.json"
+                "src/public/app/themes/*/composer.json",
+                "src/public/app/plugins/*/composer.json",
+                "src/public/app/mu-plugiins/*/composer.json"
             ],
             "recurse": true,
             "replace": false,
