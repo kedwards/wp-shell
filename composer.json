@@ -36,8 +36,7 @@
 		"oscarotero/env": "^1.1",
 		"rarst/update-blocker": "^1.1",
 		"wpackagist-plugin/wp-maintenance-mode": "2.0.9",
-		"wpackagist-plugin/updraftplus": "1.13.8",
-		"kedwards/acre": "dev-master"
+		"wpackagist-plugin/updraftplus": "1.13.8"
 	},
 	"require-dev": {
 		"wpackagist-plugin/wp-sweep": "^1.0",
