@@ -30,19 +30,13 @@
 		"roots/wp-password-bcrypt": "^1.0",
 		"vlucas/phpdotenv": "^2.4",
 		"oscarotero/env": "^1.1",
-		"rarst/update-blocker": "^1.1"
+		"rarst/update-blocker": "^1.1",
+		"wpackagist-plugin/akismet":"4.0.3"
 	},
 	"require-dev": {
 		"wpackagist-plugin/wp-sweep": "^1.0",
 		"wpackagist-plugin/wp-local-toolbox": "^1.2",
 		"wpackagist-plugin/debug-bar": "^0.9.0",
-		"squizlabs/php_codesniffer": "^3.0",
-		"phpmd/phpmd": "^2.6",
-		"sebastian/phpcpd": "^3.0",
-		"pdepend/pdepend": "^2.5",
-		"phploc/phploc": "^4.0",
-		"theseer/phpdox": "^0.10.1",
-		"phpunit/phpunit": "^6.3",
 		"kint-php/kint": "^2.2"
 	},
 	"extra": {
@@ -63,6 +57,7 @@
 		"installer-paths": {
 			"src/public/app/mu-plugins/{$name}/": [
 				"rarst/update-blocker",
+				"wpackagist-plugin/akismet",
 				"type:wordpress-muplugin"
 			],
 			"src/public/app/plugins/{$name}/": [
