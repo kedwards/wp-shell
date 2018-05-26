@@ -37,6 +37,7 @@
 		"wpackagist-plugin/wp-sweep": "^1.0",
 		"wpackagist-plugin/wp-local-toolbox": "^1.2",
 		"wpackagist-plugin/debug-bar": "^0.9.0",
+        "wpackagist-plugin/what-the-file": "1.5.4",
 		"kint-php/kint": "^2.2"
 	},
 	"extra": {
