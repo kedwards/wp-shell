@@ -1,5 +1,5 @@
 <?php                                                                                                                                                      
-                                                                                                                                                           
+
 /**                                                                                                                                                        
  * The base configuration for WordPress would normally be here, changing                                                                                   
  * config path based on best practise                                                                                                                      
