@@ -17,3 +17,17 @@ define('DISALLOW_FILE_MODS', true);
  */
 define('WPLT_SERVER', 'staging');
 define('WPLT_ADMINBAR', 'always');
+define('WPLT_ROBOTS', 'noindex');
+
+// deactivate a set of plugins
+define('WPLT_DISABLED_PLUGINS', serialize(
+    [
+        'debug-bar/debug-bar.php',
+        'debug-bar-timber/debug-bar-timber.php',
+        'log-deprecated-notices/log-deprecated-notices.php',
+        'wp-sweep/wp-sweep.php',
+        'debug-bar/debug-bar.php',
+        'what-the-file/what-the-file.php',
+        'query-monitor/query-monitor.php'
+    ]
+));
