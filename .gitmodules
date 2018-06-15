@@ -1,15 +1,3 @@
 [submodule "src/public/app/themes/acre"]
 	path = src/public/app/themes/acre
 	url = git@github.com:kedwards/acre.git
-[submodule "src/public/app/themes/_s"]
-	path = src/public/app/themes/_s
-	url = https://github.com/kedwards/_s.git
-[submodule "src/public/app/themes/understrap"]
-	path = src/public/app/themes/understrap
-	url = https://github.com/kedwards/understrap.git
-[submodule "src/public/app/themes/bubbawally"]
-	path = src/public/app/themes/bubbawally
-	url = https://github.com/kedwards/starter-theme.git
-[submodule "src/public/app/themes/dts"]
-	path = src/public/app/themes/dts
-	url = https://github.com/kedwards/dreamteam-sample-theme.git
