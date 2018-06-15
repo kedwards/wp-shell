@@ -28,6 +28,7 @@ define('WPLT_DISABLED_PLUGINS', serialize(
         'wp-sweep/wp-sweep.php',
         'debug-bar/debug-bar.php',
         'what-the-file/what-the-file.php',
-        'query-monitor/query-monitor.php'
+        'query-monitor/query-monitor.php',
+        'livity/simple-admin.php'
     ]
 ));
