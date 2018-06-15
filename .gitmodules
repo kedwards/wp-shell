@@ -1,3 +1,0 @@
-[submodule "src/public/app/themes/acre"]
-	path = src/public/app/themes/acre
-	url = git@github.com:kedwards/acre.git
