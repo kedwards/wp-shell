@@ -10,3 +10,9 @@
 [submodule "src/public/app/themes/dts"]
 	path = src/public/app/themes/dts
 	url = https://github.com/kedwards/dreamteam-sample-theme.git
+[submodule "src/public/app/themes/understrap"]
+	path = src/public/app/themes/understrap
+	url = git@github.com:kedwards/understrap.git
+[submodule "src/public/app/themes/ena"]
+	path = src/public/app/themes/ena
+	url = git@github.com:kedwards/ena-wp-theme.git
