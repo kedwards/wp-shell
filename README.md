@@ -1,6 +1,6 @@
-# wp-shell
+# Reggaetone
 
-A starter template for web based projects using WordPress.
+Feel The Riddim
 
 ## Requirements
 
@@ -9,7 +9,7 @@ A starter template for web based projects using WordPress.
 ## Installation
 
 ### Github
-- git clone git@github.com:kedwards/wp-shell.git
+- git clone -b reggaetone git@github.com:kedwards/wp-shell.git
 
 ### Composer
 - composer require kedwards/wp-shell
