@@ -1,0 +1,4 @@
+[submodule "src/public/app/themes/reggaetone"]
+	path = src/public/app/themes/reggaetone
+	url = git@github.com:kedwards/acre.git
+	branch = reggaetone
