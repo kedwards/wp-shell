@@ -7,8 +7,8 @@ src/public/app/mu-plugins/*
 !src/public/app/mu-plugins/bedrock
 !src/public/app/mu-plugins/livity
 src/public/app/plugins/*
-src/public/app/themes/*
-!src/public/app/themes/acre
+#src/public/app/themes/*
+#!src/public/app/themes/acre
 !src/public/app/themes/theme-unit-test-data.xml
 src/public/app/uploads
 src/public/wp
