@@ -1,3 +1,7 @@
 [submodule "src/public/app/themes/acre"]
 	path = src/public/app/themes/acre
 	url = git@github.com:kedwards/acre.git
+[submodule "src/public/app/themes/jpmusic"]
+	path = src/public/app/themes/jpmusic
+	url = git@github.com:kedwards/acre.git
+	branch = jpmusic
