@@ -42,6 +42,7 @@
         "wpackagist-plugin/what-the-file": "1.5.4",
         "wpackagist-plugin/query-monitor":"3.0.1",
         "wpackagist-plugin/log-deprecated-notices":"0.4",
+        "wpackagist-plugin/fakerpress":"0.4.11",
 		"kint-php/kint": "^2.2"
 	},
 	"extra": {
