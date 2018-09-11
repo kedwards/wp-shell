@@ -1,9 +1,6 @@
 [submodule "src/public/app/themes/acre"]
 	path = src/public/app/themes/acre
 	url = git@github.com:kedwards/acre.git
-[submodule "src/public/app/themes/_s"]
-	path = src/public/app/themes/_s
-	url = https://github.com/kedwards/_s.git
 [submodule "src/public/app/themes/dts"]
 	path = src/public/app/themes/dts
 	url = https://github.com/kedwards/dreamteam-sample-theme.git
